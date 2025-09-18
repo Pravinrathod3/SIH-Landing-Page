@@ -9,12 +9,12 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          One Kit, Endless
+          one click
         </Typography>
         <Chip
           label={
             <Typography variant="caption" sx={{ color: 'primary.main' }}>
-              Possibilities
+              Data wipe
             </Typography>
           }
           sx={{ height: 24, bgcolor: 'primary.lighter', mr: -1, ml: 0.75, '& .MuiChip-label': { px: 1.25 } }}
@@ -31,18 +31,18 @@ export const hero = {
       </>
     )
   },
-  headLine: 'Multipurpose UI Kit and Dashboard Template',
-  captionLine: 'Design marketing pages and powerful admin dashboards with ease using our UI Kit, built following Material 3 guidelines.',
-  primaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
-  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
-  videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
+  headLine: 'Securely Wipe. Confidently Recycle.',
+  captionLine: 'A cross-platform, tamper-proof data erasure solution empowering India’s circular economy.',
+  primaryBtn: { children: 'Explore Wipeable', href: SECTION_PATH },
+      videoSrc: '/assets/videos/data-wipe-video.mp4',
+  videoThumbnail: '/assets/videos/thumbnails/datawipe-thumbnail.png',
   listData: [
-    { image: '/assets/images/shared/react.svg', title: 'React 19' },
-    { image: '/assets/images/shared/next-js.svg', title: 'Next.js' },
-    { image: '/assets/images/shared/material-ui.svg', title: 'Material UI v7' },
-    { image: '/assets/images/shared/typescript.svg', title: 'TypeScript' },
-    { image: '/assets/images/shared/javascript.svg', title: 'JavaScript' },
-    { image: '/assets/images/shared/m3.svg', title: 'Material 3' },
-    { image: '/assets/images/shared/figma.svg', title: 'Figma' }
+    { image: '/assets/images/shared/secure.svg', title: 'Highly secured' },
+    { image: '/assets/images/shared/easy.png', title: 'easy to use' },
+    { image: '/assets/images/shared/certificate.svg', title: 'e-certificate' },
+    { image: '/assets/images/shared/one.png', title: 'just one software needed' },
+    { image: '/assets/images/shared/sustainability.png', title: 'help sustainability' },
+    { image: '/assets/images/shared/affordable.png', title: 'Affordable' },
+    { image: '/assets/images/shared/download.png', title: 'Download now' }
   ]
 };
