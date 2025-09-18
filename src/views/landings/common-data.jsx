@@ -66,7 +66,7 @@ export const landingMegamenu = {
   megaMenu: {
     type: MegaMenuType.MEGAMENU4,
     popperOffsetX: 195,
-    toggleBtn: { children: 'Landings' },
+    toggleBtn: { children: 'Features' },
     menuItems: [
       {
         title: 'CRM',

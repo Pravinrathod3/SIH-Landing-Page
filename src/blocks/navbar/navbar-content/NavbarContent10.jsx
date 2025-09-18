@@ -15,7 +15,7 @@ import { navbar10Height } from '../Navbar10';
 import ButtonAnimationWrapper from '@/components/ButtonAnimationWrapper';
 import ContainerWrapper from '@/components/ContainerWrapper';
 import Logo from '@/components/logo';
-import { MenuPopper, NavMenu, NavMenuDrawer, NavPrimaryButton, NavSecondaryButton } from '@/components/navbar';
+import { MenuPopper, NavMenu, NavMenuDrawer, NavPrimaryButton } from '@/components/navbar';
 import SvgIcon from '@/components/SvgIcon';
 
 /***************************  NAVBAR - CONTENT 10  ***************************/
@@ -46,7 +46,7 @@ export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, 
       <Stack direction="row" sx={{ gap: { xs: 1, md: 1.5 } }}>
         {!downSM && (
           <>
-            <NavSecondaryButton {...secondaryBtn} />
+
             <ButtonAnimationWrapper>
               {animated ? (
                 <motion.div
@@ -93,7 +93,7 @@ export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, 
                 )}
                 {downSM && (
                   <Stack direction="row" sx={{ justifyContent: 'space-between', gap: 1, px: 2, py: 2.5, mx: -2, bgcolor: 'grey.100' }}>
-                    <NavSecondaryButton {...secondaryBtn} />
+      
                     <ButtonAnimationWrapper>
                       <NavPrimaryButton {...primaryBtn} />
                     </ButtonAnimationWrapper>
