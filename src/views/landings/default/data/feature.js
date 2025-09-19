@@ -72,40 +72,40 @@ export const feature5 = {
 };
 
 export const feature20 = {
-  heading: 'Comprehensive UI Kit Tailored to your Need',
+  heading: 'Not All Wipes Are Created Equal',
   caption: 'Ready to transform your SaaS designs with one powerful UI Kit?',
   actionBtn: { children: 'Buy Now', href: BUY_NOW_URL, ...linkProps },
   secondaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
   features: [
     {
       icon: 'tabler-accessible',
-      title: 'WCAG Compliant',
-      content: 'Ensure accessibility with WCAG compliant design for browsing.'
+      title: 'Beyond Basic Erasure',
+      content: 'Securely erases SSDs using ATA Secure Erase/NVMe Format commands.'
     },
     {
       icon: 'tabler-brand-google',
-      title: 'SEO Friendly',
-      content: 'Boost visibility with SEO-friendly features for better search rankings.'
+      title: 'Cross-Platform Support',
+      content: 'Wipe data on Windows, Linux, and Android devices with unified experiences.'
     },
     {
       icon: 'tabler-stack-2',
-      title: 'MUI Components',
-      content: 'Customize Material 3 design MUI components for enhanced aesthetics.'
+      title: 'Eliminates Hidden Data',
+      content: 'Sanitizes hidden areas like HPA and DCO where malware and data can lurk.'
     },
     {
       icon: 'tabler-rocket',
-      title: 'High Performance UI',
-      content: 'Adjust content layout for visual coherence on various screen sizes.'
+      title: 'Military-Grade Standards',
+      content: 'Offers multiple overwrite patterns (DoD 5220.22-M) following NIST SP 800-88 guidelines.'
     },
     {
       icon: 'tabler-help',
-      title: 'Detailed Documentation',
-      content: 'Access comprehensive documentation for easy guidance on platform usage.'
+      title: 'Built for Security',
+      content: 'Memory safety, bundled in lightweight framework.'
     },
     {
       icon: 'tabler-refresh',
-      title: 'Regular Updates',
-      content: 'Receive consistent updates to keep the platform secure and up-to-date with the latest features.'
+      title: 'The Trust Anchor',
+      content: 'Tamper-proof certificate with cryptographic hash logged on Hedera Consensus Service.'
     }
   ]
 };
