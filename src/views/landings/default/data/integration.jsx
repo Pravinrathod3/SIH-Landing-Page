@@ -4,7 +4,7 @@ import { DOCS_URL } from '@/path';
 
 export const integration = {
   headLine: 'Tailored for Every Industry',
-  captionLine: 'From Project Management to AI, see how our UI Kit helps you build SaaS applications tailored for a variety of industries.',
+  captionLine: 'Industry-Specific Data Wiping Solutions To Meet Compliance Needs.',
   primaryBtn: {
     children: 'Documentation',
     startIcon: <SvgIcon name="tabler-help" color="background.default" />,
@@ -13,20 +13,19 @@ export const integration = {
     rel: 'noopener noreferrer'
   },
   tagList: [
-    { label: 'Project Management' },
-    { label: 'Customer Relationship Management (CRM)' },
-    { label: 'HR & Recruitment' },
-    { label: 'Finance & Accounting' },
-    { label: 'E-commerce Solutions' },
-    { label: 'Marketing Automation' },
-    { label: 'Healthcare & Telemedicine' },
-    { label: 'LMS' },
-    { label: 'AI & ML Platforms' },
-    { label: 'Inventory & Supply Chain Management' },
-    { label: 'Customer Support & Help Desk' },
-    { label: 'Email Marketing and SEO Tools' },
-    { label: 'Networking Platforms' },
-    { label: 'Blogging Tools' },
-    { label: 'Data Analytics & Business Intelligence' }
+    { label: 'Enterprise' },
+    { label: 'ITAD' },
+    { label: 'Refurbisher ' },
+    { label: 'Government' },
+    { label: 'Managed Service Provider' },
+    { label: 'Education' },
+    { label: 'Healthcare' },
+    { label: 'Insurance' },
+    { label: 'Banking' },
+    { label: 'Finance' },
+    { label: 'Cloud Data Centers' },
+    { label: 'Mobile & Telecom Industry' },
+    { label: 'Military' },
+    { label: 'Small & Medium Businesses' }
   ]
 };
